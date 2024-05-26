@@ -1,8 +1,8 @@
 # Sprawozdanie_Lab5_PART1
 
 # 1. Treść utworzonego pliku Dockerfile
-
-#Etap pierwszy: Budowanie aplikacji
+```
+# Etap pierwszy: Budowanie aplikacji
 FROM node:14-alpine AS builder
 
 #Ustawienie katalogu roboczego
@@ -24,3 +24,4 @@ RUN npm run build
 
 #Uruchomienie aplikacji
 CMD ["node", "index.js"]
+```
